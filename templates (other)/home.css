@@ -1,0 +1,40 @@
+.nav {
+	padding-left: 100px;
+}
+
+.navbar-default .navbar-brand{
+	padding: 15px 10px;
+}
+
+li{
+	text-align: center;
+}
+
+.membership {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:300%;
+}
+
+p {
+	text-align: center;
+}
+	  
+.jumbotron h3{
+	color: red;
+}
+
+.about-title{
+	color: red;
+}
+
+h1{
+	position: absolute;
+	left: 5%;
+	top: 35%;
+}
+
+.btn-primary{
+	position: relative;
+}

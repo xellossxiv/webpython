@@ -1,0 +1,28 @@
+.buttonMore{
+	position:absolute;
+	bottom:40px;
+	left:50%;
+	z-index:1;
+	width:60%;
+	padding-left:0;
+	margin-left:-30%;
+	text-align:center;
+	}
+	
+.carousel-indicators{
+	z-index:1;
+}	
+	
+.carousel-indicators li {
+	border: 1px solid black;
+}
+
+.jumbotron {
+	  padding-top: 0px;
+	  padding-bottom: 0px;
+	  background-color: rgba(0,0,0,0.85);
+}
+
+.carousel{
+	  background-color: rgba(255,255,255,1);
+}

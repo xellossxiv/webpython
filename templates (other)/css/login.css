@@ -1,0 +1,13 @@
+.login{
+	padding: 10px;
+	margin: 0 20%;
+	list-style: none;
+	text-align: center;
+}
+
+.login li{
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}

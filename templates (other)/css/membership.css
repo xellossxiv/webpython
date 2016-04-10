@@ -1,0 +1,129 @@
+.grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li.mem {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+}
+
+.grid figcaption.shown {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #3a3a3a;
+	color: #fff;
+}
+
+.grid figcaption.reveal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	color: #000;
+}
+
+.grid figcaption.shown h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption.reveal h3 {
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.grid figcaption a {
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #2065ce;
+	color: #fff;
+}
+
+.cs-style-1 figcaption.shown{
+	height: 300px;
+	width: 300px;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.cs-style-1 figcaption.reveal{
+	height: 300px;
+	width: 300px;
+	opacity: 1;
+	text-align: center;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.no-touch .cs-style-1 figure:hover figcaption.shown,
+.cs-style-1 figure.cs-hover figcaption.shown {
+	opacity: 1;
+	-webkit-transform: translate(0px, 0px);
+	-moz-transform: translate(0px, 0px);
+	-ms-transform: translate(0px, 0px);
+	transform: translate(0px, 0px);
+}
+
+.cs-style-1 figcaption.shown h3 {
+	margin-top: 50px;
+	font-size:200%; 
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.cs-style-1 figcaption.shown a {
+	margin-top: 30px;
+}
+
+.cs-style-1 figcaption.reveal h3 {
+	margin-top: 50px;
+	font-size:200%; 
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+.cs-style-1 figcaption.reveal a {
+	margin-top: 30px;
+}
+
+.listing{
+	list-style-type: circle;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	left: 0;
+	top: 0;
+	padding:0;
+}
